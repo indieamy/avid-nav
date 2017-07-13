@@ -10,7 +10,7 @@ html {box-sizing: border-box;}
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
   	font-family: "Open Sans", sans-serif;
-  	font-size: 14px;
+  	font-size: 18px;
 	/*line-height: 1;*/
 	margin: 0;
 	padding: 0;
@@ -19,6 +19,7 @@ a {text-decoration: none;}
 
 .container {
 	margin: 0 2rem;
+	padding: 0.4rem 0.7rem;
 	width: 100%;
 }
 
@@ -38,13 +39,13 @@ nav {
 	font-size: 0;
 	position: relative;
 	text-align: right;
-	padding-right: 3rem;
+	padding-right: 5rem;
 }
 
 nav > ul > li {
 	display: inline-block;
   	font-size: 14px;
-  	padding: 0 15px;
+  	padding: 0 20px;
   	position: relative;
 }
 nav > ul > li:first-child {padding-left: 0;}
@@ -66,8 +67,9 @@ nav > ul > li:hover > a {
 
 #logo img {
 	align-items: center;
-	height: 40px;
+	height: 3.2rem;
 	margin: 1rem 1rem 1rem 0.5rem;
+	padding-left: 3rem;
 }
 
 /* #Mega Menu Styles
