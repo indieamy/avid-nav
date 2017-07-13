@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	border-bottom: 1px solid #ecf0f1;
+	width: 100%;
+	height: 90px;
+	background-color: #2980B9;
+}
+/* Header Logo */
+
+.logo {
+	display: flex; 
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 2rem;
+}
+
+.logo img {
+	height: 4rem;
+	margin: 1rem 1rem 1rem 0.5rem;
+}
+
+/* Navigation */
+
+.main-nav {
+	position: fixed;
+	z-index: 1;
+	border-bottom: 1px solid #ecf0f1;
+	width: 100%;
+	height: 90px;
+	background-color: #2980B9;
+}
+
+.main-nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 2.5rem;
+}
+
+.main-nav ul li {
+	align-content: center;
+	align-items: flex-end;
+	font-size: 1rem;
+	padding: 0 1.2rem;
+	font-weight: 500;
+}
+
+.main-nav ul li a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myavid-login {
+	color: #f1c40f;
+	border: 2px solid #f1c40f;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+	transition: color 0.5s ease-out,
+		border 0.5s ease-out;
+    
+}
+
+#myavid-login:hover {
+	border: 2px solid #ecf0f1;
+	color: #ecf0f1;
+}
+
+.main-nav ul li a:hover {
+	color: #f1c40f;
+	transition: color 0.5s ease-out;
+}
